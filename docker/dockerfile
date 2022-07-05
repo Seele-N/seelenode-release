@@ -1,0 +1,8 @@
+FROM frolvlad/alpine-glibc
+
+WORKDIR /root/
+
+COPY ./seeled .
+RUN chmod +x /root/seeled
+
+ENTRYPOINT ["/root/seeled"]
