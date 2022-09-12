@@ -41,7 +41,7 @@ moniker = "sync-wallet"
 
 Step 2-2 Run seele
 
-./seeled init "sync-wallet" --chain-id=seelehub_186-1 --home=/data/seele
+./seeled start --home=/data/seele
 
 
 Step 3. docker (Optional)
